@@ -1,6 +1,6 @@
 # Base Theme
 
-This simple theme has everything you need to run a site with bootstrap.
+This simple theme has everything you need to run a WP site with [Bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
 
 The idea is to keep everything simple and familiar so that it can be understood by any wp developer.
 
@@ -16,7 +16,9 @@ The main less file is `lib/assets/less/jutzu.less` and its outputted in `lib/ass
 
 ## JavaScript
 
-There is no much added by default except for some function to add css classes to the tag cloud and of course bootstrap scripts. Main minifed file is `lib/assets/dist/jutzu.js`.
+There is no much included by default, except for some function to add css classes to the tag cloud and of course bootstrap scripts. 
+
+Main minifed file is `lib/assets/dist/jutzu.js`.
 
 ## Grunt
 
