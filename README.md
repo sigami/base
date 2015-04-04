@@ -2,7 +2,7 @@
 
 This simple theme has everything you need to run a WP site with [Bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
 
-The idea is to keep everything simple and familiar so that it can be understood by any wp developer.
+The idea is to **keep everything simple and familiar** so that it can be understood by any wp developer.
 
 It is based on [Bones Theme](https://github.com/eddiemachado/bones) taking some functionality out of [Roots](https://roots.io/), all template files and contents are as they should on a standard wordpress theme.
 
