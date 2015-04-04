@@ -16,9 +16,11 @@ The main less file  is `lib/assets/less/jutzu.less` and its outputted in `lib/as
 
 ## JavaScript
 
-There is no much included by default, except for some function to add css classes to the tag cloud and of course bootstrap scripts. 
+By default there is only one function to add css classes to the tag cloud and Bootstrap scripts.
 
 Main minifed file is `lib/assets/dist/jutzu.js`.
+
+Source is in `lib/assets/js/scripts.js`.
 
 ## Grunt
 
