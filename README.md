@@ -39,7 +39,7 @@ Then add the path to the script on the gruntfile, and run `grunt build`.
 
 ## Child Themes
 
-This theme is prepared to work with a child theme, you only need to create the folder structure to get the same functionality, an example child theme will be uploaded soon.
+This theme is prepared to work with a child theme, you only need to create the folder structure to get the same functionality. [Example Child Theme](https://github.com/sigami/base_child/releases)
 
 ## Translations
 
