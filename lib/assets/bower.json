@@ -1,0 +1,31 @@
+{
+  "name": "sigami_base",
+  "version": "1.0",
+  "homepage": "https://github.com/sigami/base",
+  "authors": [
+    "Miguel Sirvent <miguel@sigami.net>"
+  ],
+  "description": "WordPress Boostrap Skeleton",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "bootstrap",
+    "WordPress"
+  ],
+  "license": "GNU",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4",
+    "bootstrap": "~3"
+  },
+  "main": "../index.php",
+  "private": true
+}
