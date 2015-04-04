@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: SIGAMI BASE v1.1\n"
+"Project-Id-Version: Base Theme v1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-17 23:02-0300\n"
-"PO-Revision-Date: 2015-03-05 05:12:24+0000\n"
+"PO-Revision-Date: 2015-04-04 04:40:22+0000\n"
 "Last-Translator: Eduardo Aguayo <eduardoaguayo@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -40,81 +40,61 @@ msgstr "Entradas Categorizadas:"
 msgid "Posts Tagged:"
 msgstr "Entradas Etiquetadas:"
 
-#: archive.php:12
-#: author.php:8
+#: archive.php:15
 #@ sigami
 msgid "Posts By:"
 msgstr "Entradas Por:"
 
-#: archive.php:14
+#: archive.php:17
 #@ sigami
 msgid "Daily Archives:"
 msgstr "Archivo Diario:"
 
-#: archive.php:16
+#: archive.php:19
 #@ sigami
 msgid "Monthly Archives:"
 msgstr "Archivo Mensual:"
 
-#: archive.php:18
+#: archive.php:21
 #@ sigami
 msgid "Yearly Archives:"
 msgstr "Archivo Anual:"
 
-#: archive.php:30
+#: archive.php:33
 #: attachment.php:16
-#: author.php:31
 #: index.php:13
-#: page-full-width.php:18
-#: page-left-sidebar.php:20
 #: page.php:14
 #: search.php:18
 #: single.php:14
+#: template-full-width.php:18
+#: template-left-sidebar.php:20
 #@ sigami
 msgid "Posted"
 msgstr "Publicado"
 
-#: archive.php:36
+#: archive.php:39
 #: attachment.php:16
-#: author.php:31
 #: index.php:19
-#: page-full-width.php:24
-#: page-left-sidebar.php:26
 #: page.php:20
 #: search.php:24
 #: single.php:20
+#: template-full-width.php:24
+#: template-left-sidebar.php:26
 #@ sigami
 msgid "by"
 msgstr "por"
 
-#: author.php:31
-#@ sigami
-msgid "filed under"
-msgstr "archivado en"
-
-#: author.php:58
-#@ sigami
-msgid "&laquo; Older Entries"
-msgstr "&laquo; Entradas Anteriores"
-
-#: author.php:59
-#@ sigami
-msgid "Newer Entries &raquo;"
-msgstr "Siguientes Entradas &raquo;"
-
-#: author.php:69
-#: library/parts/not-found.php:3
+#: lib/parts/not-found.php:3
 #@ sigami
 msgid "No Posts Yet"
 msgstr "Todavía no hay entradas"
 
-#: author.php:72
-#: library/parts/not-found.php:6
+#: lib/parts/not-found.php:6
 #@ sigami
 msgid "Sorry, What you were looking for is not here."
 msgstr "Disculpa, lo que estabas buscando no esta aquí."
 
-#: archive.php:62
+#: archive.php:65
 #: attachment.php:29
 #: index.php:45
 #: search.php:50
@@ -139,12 +119,10 @@ msgid "This post is password protected. Enter the password to view comments."
 msgstr "Esta entrada está protegida con clave. Introduce la clave para ver los comentarios"
 
 #: comments.php:21
-#: library/classes/sigami-activation.php:166
-#: library/classes/sigami-activation.php:178
-#: library/classes/sigami-activation.php:190
-#: library/classes/sigami-activation.php:202
+#: lib/classes/sigami-activation.php:131
+#: lib/classes/sigami-activation.php:143
+#: lib/classes/sigami-activation.php:155
 #@ sigami
-#@ roots
 msgid "No"
 msgstr "No"
 
@@ -190,52 +168,52 @@ msgstr "Los comentarios están cerrados"
 msgid "Leave a Reply"
 msgstr "Publicar una respuesta"
 
-#: library/classes/sigami-views.php:106
+#: lib/classes/sigami-views.php:106
 #@ sigami
 msgid "Name"
 msgstr "Nombre"
 
-#: library/classes/sigami-views.php:113
+#: lib/classes/sigami-views.php:113
 #@ sigami
 msgid "Your Name"
 msgstr "Tu Nombre"
 
-#: library/classes/sigami-views.php:127
+#: lib/classes/sigami-views.php:127
 #@ sigami
 msgid "Your Email"
 msgstr "Tu E-mail"
 
-#: library/classes/sigami-views.php:130
+#: lib/classes/sigami-views.php:130
 #@ sigami
 msgid "will not be published"
 msgstr "no se publicará"
 
-#: library/classes/sigami-views.php:134
+#: lib/classes/sigami-views.php:134
 #@ sigami
 msgid "Website"
 msgstr "Sitio Web"
 
-#: library/classes/sigami-views.php:140
+#: lib/classes/sigami-views.php:140
 #@ sigami
 msgid "Your Website"
 msgstr "Tu Website"
 
-#: library/classes/sigami-bootstrap.php:206
+#: lib/classes/sigami-bootstrap.php:206
 #@ sigami
 msgid "Edit"
 msgstr "Editar"
 
-#: library/classes/sigami-bootstrap.php:210
+#: lib/classes/sigami-bootstrap.php:210
 #@ sigami
 msgid "Your comment is awaiting moderation."
 msgstr "Tu comentario está pendiente de moderación."
 
-#: library/classes/sigami-bootstrap.php:98
+#: lib/classes/sigami-bootstrap.php:98
 #@ sigami
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "Esta entrada está protegida con clave. Para verla por favor introduce la clave a continuación:"
 
-#: library/classes/sigami-bootstrap.php:99
+#: lib/classes/sigami-bootstrap.php:99
 #@ sigami
 msgid "Password:"
 msgstr "Clave:"
@@ -246,7 +224,7 @@ msgstr "Clave:"
 msgid "Search"
 msgstr "Buscar"
 
-#: library/classes/sigami-views.php:94
+#: lib/classes/sigami-views.php:94
 #@ sigami
 msgid "Read more &raquo;"
 msgstr "Leer más &raquo;"
@@ -256,33 +234,33 @@ msgstr "Leer más &raquo;"
 msgid "Search Results for"
 msgstr "Resultado de la búsqueda para"
 
-#: sidebar-home-page.php:13
+#: sidebar-homepage.php:13
 #: sidebar.php:13
 #@ sigami
 msgid "Please activate some Widgets"
 msgstr "Por favor active algunos Widgets"
 
 #: attachment.php:35
-#: page-full-width.php:32
-#: page-left-sidebar.php:34
 #: page.php:28
 #: single.php:32
+#: template-full-width.php:32
+#: template-left-sidebar.php:34
 #@ sigami
 msgid "Edit post"
 msgstr "Editar entrada"
 
-#: archive.php:33
+#: archive.php:36
 #: index.php:16
-#: page-full-width.php:21
-#: page-left-sidebar.php:23
 #: page.php:17
 #: search.php:21
 #: single.php:17
+#: template-full-width.php:21
+#: template-left-sidebar.php:23
 #@ sigami
 msgid "Updated"
 msgstr "Actualizado"
 
-#: archive.php:37
+#: archive.php:40
 #: index.php:20
 #: search.php:25
 #: single.php:21
@@ -290,7 +268,7 @@ msgstr "Actualizado"
 msgid "Filed under"
 msgstr "Guardado en"
 
-#: archive.php:65
+#: archive.php:68
 #: index.php:49
 #: search.php:53
 #, php-format
@@ -300,14 +278,14 @@ msgid_plural "%d Comments"
 msgstr[0] "%d Commentario"
 msgstr[1] "%d Commentarios"
 
-#: archive.php:77
+#: archive.php:80
 #: index.php:61
 #: search.php:65
 #@ sigami
 msgid " Older Entries"
 msgstr "Entradas Pasadas"
 
-#: archive.php:78
+#: archive.php:81
 #: index.php:62
 #: search.php:66
 #@ sigami
@@ -334,147 +312,175 @@ msgstr "Contestar"
 msgid "Your Comment Here..."
 msgstr "Tu comentario aqui..."
 
-#: functions.php:84
+#: functions.php:109
 #@ sigami
 msgid "Used only on the homepage page template."
 msgstr "Usado solo en la p"
 
-#: functions.php:94
+#: functions.php:119
 #@ sigami
 msgid "Used on every page BUT the homepage page template."
 msgstr "Used on every page BUT the homepage page template."
 
-#: library/classes/sigami-activation.php:45
-#: library/classes/sigami-activation.php:66
-#@ roots
+#: lib/classes/sigami-activation.php:42
+#: lib/classes/sigami-activation.php:63
+#@ sigami
 msgid "Home"
 msgstr ""
 
-#: library/classes/sigami-activation.php:92
-#: library/classes/sigami-activation.php:95
-#: library/classes/sigami-activation.php:109
-#@ roots
-msgid "Primary Navigation"
-msgstr ""
-
-#: library/classes/sigami-activation.php:134
-#: library/classes/sigami-activation.php:135
-#@ roots
+#: lib/classes/sigami-activation.php:93
+#: lib/classes/sigami-activation.php:94
+#@ sigami
 msgid "Theme Activation"
 msgstr ""
 
-#: library/classes/sigami-activation.php:151
+#: lib/classes/sigami-activation.php:110
 #, php-format
-#@ roots
+#@ sigami
 msgid "%s Theme Activation"
 msgstr ""
 
-#: library/classes/sigami-activation.php:153
-#@ roots
+#: lib/classes/sigami-activation.php:112
+#@ sigami
 msgid "These settings are optional and should usually be used only on a fresh installation"
 msgstr ""
 
-#: library/classes/sigami-activation.php:160
-#: library/classes/sigami-activation.php:163
-#@ roots
+#: lib/classes/sigami-activation.php:125
+#: lib/classes/sigami-activation.php:128
+#@ sigami
 msgid "Create static front page?"
 msgstr ""
 
-#: library/classes/sigami-activation.php:165
-#: library/classes/sigami-activation.php:177
-#: library/classes/sigami-activation.php:189
-#: library/classes/sigami-activation.php:201
-#@ roots
+#: lib/classes/sigami-activation.php:130
+#: lib/classes/sigami-activation.php:142
+#: lib/classes/sigami-activation.php:154
+#@ sigami
 msgid "Yes"
 msgstr ""
 
-#: library/classes/sigami-activation.php:168
-#@ roots
+#: lib/classes/sigami-activation.php:133
+#@ sigami
 msgid "Create a page called Home and set it to be the static front page"
 msgstr ""
 
-#: library/classes/sigami-activation.php:172
-#@ roots
+#: lib/classes/sigami-activation.php:137
+#@ sigami
 msgid "Change permalink structure?"
 msgstr ""
 
-#: library/classes/sigami-activation.php:175
-#@ roots
+#: lib/classes/sigami-activation.php:140
+#@ sigami
 msgid "Update permalink structure?"
 msgstr ""
 
-#: library/classes/sigami-activation.php:180
-#@ roots
+#: lib/classes/sigami-activation.php:145
+#@ sigami
 msgid "Change permalink structure to /&#37;postname&#37;/"
 msgstr ""
 
-#: library/classes/sigami-activation.php:184
-#: library/classes/sigami-activation.php:187
-#@ roots
-msgid "Create navigation menu?"
-msgstr ""
-
-#: library/classes/sigami-activation.php:192
-#@ roots
-msgid "Create the Primary Navigation menu and set the location"
-msgstr ""
-
-#: library/classes/sigami-activation.php:196
-#: library/classes/sigami-activation.php:199
-#@ roots
+#: lib/classes/sigami-activation.php:152
+#@ sigami
 msgid "Add pages to menu?"
 msgstr ""
 
-#: library/classes/sigami-activation.php:204
-#@ roots
-msgid "Add all current published pages to the Primary Navigation"
-msgstr ""
-
-#: library/classes/sigami-bootstrap.php:99
+#: lib/classes/sigami-bootstrap.php:99
 #@ sigami
 msgid "Submit"
 msgstr "Enviar"
 
-#: library/classes/sigami-cleanup.php:96
+#: lib/classes/sigami-cleanup.php:46
+#: lib/classes/sigami-cleanup.php:95
 #@ sigami
 msgid "search"
 msgstr "buscar"
 
-#: library/classes/sigami-views.php:57
+#: lib/classes/sigami-views.php:57
 #, php-format
 #@ sigami
 msgid "Page %s"
 msgstr "Pagina %s"
 
-#: library/classes/sigami-views.php:107
-#: library/classes/sigami-views.php:121
+#: lib/classes/sigami-views.php:107
+#: lib/classes/sigami-views.php:121
 #@ sigami
 msgid "required"
 msgstr "requerido"
 
-#: library/classes/sigami-views.php:120
+#: lib/classes/sigami-views.php:120
 #@ sigami
 msgid "Email"
 msgstr "Correo Electrónico"
 
-#: library/classes/sigami-views.php:213
+#: lib/classes/sigami-views.php:213
 #@ sigami
 msgid "First"
 msgstr "Pimero"
 
-#: library/classes/sigami-views.php:216
-#: library/classes/sigami-views.php:220
+#: lib/classes/sigami-views.php:216
+#: lib/classes/sigami-views.php:220
 #@ sigami
 msgid "&larr; Previous"
 msgstr "&larr; Previo"
 
-#: library/classes/sigami-views.php:231
+#: lib/classes/sigami-views.php:231
 #@ sigami
 msgid "Next &rarr;"
 msgstr "Siguiente &rarr;"
 
-#: library/classes/sigami-views.php:235
+#: lib/classes/sigami-views.php:235
 #@ sigami
 msgid "Last"
 msgstr "Pasado"
+
+#: lib/classes/sigami-activation.php:149
+#@ sigami
+msgid "Will this theme use Piklist?"
+msgstr ""
+
+#: lib/classes/sigami-activation.php:157
+#@ sigami
+msgid "Activating this will prompt installation"
+msgstr ""
+
+#: lib/vendor/class-piklist-checker.php:128
+#@ piklist
+msgid "Your theme requires PIKLIST to work properly."
+msgstr ""
+
+#: lib/vendor/class-piklist-checker.php:138
+#@ piklist
+msgid "The following plugin(s) require PIKLIST, and have been deactivated:"
+msgstr ""
+
+#: lib/vendor/class-piklist-checker.php:154
+#@ piklist
+msgid "You can:"
+msgstr ""
+
+#: lib/vendor/class-piklist-checker.php:167
+#@ piklist
+msgid "Activate Piklist for this site"
+msgstr ""
+
+#: lib/vendor/class-piklist-checker.php:174
+#@ piklist
+msgid "Network Activate Piklist for all sites."
+msgstr ""
+
+#: lib/vendor/class-piklist-checker.php:181
+#@ piklist
+msgid "Install Piklist"
+msgstr ""
+
+#: lib/vendor/class-piklist-checker.php:188
+#, php-format
+#@ piklist
+msgid "%1$s %2$sDismiss this message."
+msgstr ""
+
+#: lib/vendor/class-piklist-checker.php:192
+#, php-format
+#@ piklist
+msgid "%1$s %2$sChange your theme."
+msgstr ""
 
