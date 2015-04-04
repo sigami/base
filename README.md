@@ -1,6 +1,6 @@
 # Base Theme
 
-This simple theme has everything you need to run a WP site with [Bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
+This simple theme has everything you need to run a WP site that supports [Bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
 
 The idea is to **keep everything simple and familiar** so that it can be understood by any wp developer.
 
@@ -37,11 +37,11 @@ You can also install extra dependencies with bower for example
 
     bower install wow
 
-Then add the path to the script on the gruntfile, and run `grunt build`.
+Then add the script path on the .gruntfile, and run `grunt build`.
 
 ## Child Themes
 
-This theme is prepared to work with a child theme, you only need to create the folder structure to get the same functionality. [Example Child Theme](https://github.com/sigami/base_child/releases)
+This theme is prepared to work with a child theme, you only need to create the folder structure to get the same functionality. [Example Child Theme](https://github.com/sigami/base_child)
 
 ## Translations
 
