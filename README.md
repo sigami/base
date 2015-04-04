@@ -12,7 +12,7 @@ All the php files inside the `lib/classes` are auto loaded and each of them cont
 
 ## LESS
 
-The main less file is `lib/assets/less/jutzu.less` and its outputted in `lib/assets/dist/jutzu.css`.
+The main less file  is `lib/assets/less/jutzu.less` and its outputted in `lib/assets/dist/jutzu.css`.
 
 ## JavaScript
 
