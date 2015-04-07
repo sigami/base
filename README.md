@@ -12,13 +12,13 @@ The idea is to **keep everything simple and familiar** so that it can be underst
 
 It was originaly based on wp-boostrap by 320press and still have some of its functions.
 
-## Classes
+## Mini Plugins
 
 All the php files inside the `lib/classes` are autoloaded. 
 
 Each of them contains separate functionality: activation, bootstrap, cleanup, piklist and views. 
 
-These files are classes that are portable and repleaceable, think on them like mini plugins. 
+These files are portable and repleaceable, think on them like mini plugins. 
 
 If you delete one you only loose that file functionality, without having to make any other changes to the code. 
 
