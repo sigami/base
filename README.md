@@ -18,27 +18,31 @@ All the php files inside the `lib/classes` are autoloaded.
 
 Each of them contains separate functionality: activation, bootstrap, cleanup, piklist and views. 
 
-These files are classes that are portable and repleaceable, think on them like mini plugins. If you delete one you only loose that file functionality, without having to make any other changes to the code. They can also be repaced on a child theme.
+These files are classes that are portable and repleaceable, think on them like mini plugins. 
+
+If you delete one you only loose that file functionality, without having to make any other changes to the code. 
+
+They can also be replaced on a child theme.
 
 ## LESS
 
 The main less file 
 
-`lib/assets/less/jutzu.less` 
+        lib/assets/less/jutzu.less
 
 Outputted in 
 
-`lib/assets/dist/jutzu.css`
+        lib/assets/dist/jutzu.css
 
 ## JavaScript
 
 Source is in 
 
-`lib/assets/js/scripts.js`
+        lib/assets/js/scripts.js
 
 Outputted in
 
-`lib/assets/dist/jutzu.js`
+        lib/assets/dist/jutzu.js
 
 ## Child Themes
 
