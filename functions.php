@@ -4,6 +4,7 @@ if ( ! isset( $content_width ) ) $content_width = 900;
  * Class Sigami_Base
  * Main class of the plugin
  */
+
 class  Sigami_Base {
     private static $instance = null;
     public $theme_dir;

@@ -80,6 +80,18 @@ class  Sigami_Activation
                 flush_rewrite_rules();
             }
         }
+        if ($sigami_base_options['piklist'] === 'true') {
+            $true_dir = get_stylesheet_directory();
+            if(!is_dir($true_dir.'/piklist'))
+                mkdir($true_dir.'/piklist');
+            if(!is_dir($true_dir.'/piklist/parts'))
+                mkdir($true_dir.'/piklist/parts');
+            $sigami_base = Sigami_Base::get_instance();
+            if($sigami_base->has_child){
+                copy($sigami_base->theme_dir.'/lib/classes/sigami-piklist.php', $true_dir.'/lib/classes/sigami-piklist.php');
+            }
+
+        }
         $sigami_base_options['done'] = "true";
         update_option('sigami_base_options', $sigami_base_options);
         //wp_redirect(admin_url('themes.php'));
