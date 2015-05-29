@@ -87,7 +87,7 @@ class  Sigami_Activation
             if(!is_dir($true_dir.'/piklist/parts'))
                 mkdir($true_dir.'/piklist/parts');
             $sigami_base = Sigami_Base::get_instance();
-            if($sigami_base->has_child){
+            if($sigami_base->has_child && !file_exists($true_dir.'/lib/classes/sigami-piklist.php')){
                 copy($sigami_base->theme_dir.'/lib/classes/sigami-piklist.php', $true_dir.'/lib/classes/sigami-piklist.php');
             }
 
