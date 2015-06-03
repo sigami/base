@@ -42,7 +42,9 @@ class Sigami_Cleanup
         remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0); // Links for Adjacent Posts
         remove_action('wp_head', 'wp_generator');
         global $wp_widget_factory;
-        remove_action('wp_head', array($wp_widget_factory->widgets['WP_Widget_Recent_Comments'], 'recent_comments_style'));
+        if(isset($wp_widget_factory->widgets['WP_Widget_Recent_Comments'])){
+            remove_action('wp_head', array($wp_widget_factory->widgets['WP_Widget_Recent_Comments'], 'recent_comments_style'));
+        }
         add_rewrite_rule(__('search','sigami').'/(.+?)/?$', 'index.php?s=$matches[1]', 'top');
     }
 
