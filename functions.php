@@ -39,25 +39,23 @@ class  Sigami_Base {
 
         /**  Include all php files inside classes folder */
         $files = glob($this->theme_dir."/lib/classes/*.php");
-        $clean_parent = array();
         foreach ($files as $file){
             $clean = str_replace($this->theme_dir,'',$file);
-            $clean_parent = $clean_parent + array( $clean );
-            locate_template($clean,true,true);
+            $clean_files[] = $clean;
         }
         //Support Child themes replacement of classes.
         if($this->has_child && is_dir(get_stylesheet_directory()."/lib/classes")){
             $child_dir = get_stylesheet_directory();
             $files_child = glob($child_dir."/lib/classes/*.php");
-            $clean_child = array();
-            foreach ($files_child as $file)
-                $clean_child = $clean_child + array( str_replace($child_dir,'',$file) );
-            if(!empty($clean_child))
-                foreach($clean_child as $file){
-                    if(!in_array($file,$clean_parent))
-                        locate_template($file,true,true);
+            if(!empty($files_child)){
+                foreach ($files_child as $file){
+                    $clean_files[] = str_replace($child_dir,'',$file);
+                }
             }
         }
+        $all_files = array_unique($clean_files);
+        foreach($all_files as $file)
+            locate_template($file,true,true);
 
         /** Inlcude Styles and Scripts */
         add_action( 'wp_enqueue_scripts', array( $this, 'wp_enqueue_scripts' ) );
