@@ -66,13 +66,13 @@ class  Sigami_Views
 
     function the_content_lead($content)
     {
-        global $post;
-
-        // if we're on the homepage, don't add the lead class to the first paragraph of text
-        if (is_page_template('page-homepage.php'))
-            return $content;
-        else
-            return preg_replace('/<p([^>]+)?>/', '<p$1 class="lead">', $content, 1);
+        if(get_post_type() == 'post'){
+            // if we're on the homepage, don't add the lead class to the first paragraph of text
+            if (is_page_template('page-homepage.php'))
+                return $content;
+            else
+                return preg_replace('/<p([^>]+)?>/', '<p$1 class="lead">', $content, 1);
+        }
     }
 
     function embed_oembed_html($cache, $url, $attr = '', $post_ID = '')

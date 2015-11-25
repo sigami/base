@@ -36,7 +36,7 @@ class  Sigami_Base {
 
         /** Composer autoload **/
         locate_template("/lib/vendor/composer/vendor/autoload.php",true,true);
-
+	    $clean_files = array();
         /**  Include all php files inside classes folder */
         $files = glob($this->theme_dir."/lib/classes/*.php");
         foreach ($files as $file){
@@ -173,6 +173,7 @@ class  Sigami_Base {
 
     }
     static function main_nav_fallback(){
+	    //TODO fake menu.
         wp_page_menu( $args = array('menu_class'=>'nav navbar-nav') );
     }
     static function footer_links_fallback(){
