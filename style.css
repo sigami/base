@@ -1,13 +1,15 @@
 /*
 Theme Name: Base Theme
 Theme URI: http://github.com/sigami/base
-Description: Bootsrap Font Awesome Skeleton with templates, cleanup, and grunt.
+Description: Bootstrap Theme for Ninja Developers
 Version: 1.2
 Author: Miguel Sirvent
 Author URI: http://sigami.net
 Tags: black, left-sidebar, right-sidebar, white, one-column, two-columns, responsive-layout, custom-background, custom-colors, custom-menu, full-width-template
 License: GNU General Public License v2.0 & Apache License 2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+Text Domain: sigami
+Domain Path: /lib/languages
 */
 
-/* HEADS UP: Everything that you will normally find here can be found in the lib/assets/less/jutzu.less */
+/* HEADS UP: Everything that you will normally find here can be found in the lib/assets/less/jutzu.less run grunt dev or build first ;) */
