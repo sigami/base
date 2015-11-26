@@ -38,7 +38,31 @@
                                     <?php endif; ?>
                                     <dd><span class="author vcard"><?php _e('by', 'sigami'); ?> <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>" ><span itemprop="author" rel="author" class="fn"><?php echo get_the_author(); ?></span></a></span></dd>
                                     <dt>&nbsp;&amp;&nbsp;&nbsp;<?php _e("Filed under", "sigami"); ?></dt>
-                                    <dd itemprop="keywords"><?php the_category(', '); ?></dd>
+                                    <dd itemprop="keywords">
+                                        <?php
+                                            if(get_post_type() == 'post'){
+                                                the_category(', ');
+                                            } else {
+                                                // get post by post id
+                                                $post_type = $post->post_type;
+                                                $taxonomies = get_object_taxonomies( $post_type, 'objects' );
+                                                $out = array();
+                                                foreach ( $taxonomies as $taxonomy_slug => $taxonomy ){
+                                                    $terms = get_the_terms( $post->ID, $taxonomy_slug );
+                                                    if ( !empty( $terms ) ) {
+                                                        foreach ( $terms as $term ) {
+                                                            $out[] =
+                                                                '<a href="'
+                                                                .    get_term_link( $term->slug, $taxonomy_slug ) .'">'
+                                                                .    $term->name
+                                                                . "</a>";
+                                                        }
+                                                    }
+                                                }
+                                                echo  implode(', ', $out );
+                                            }
+                                        ?>
+                                    </dd>
                                 </dl>
                             </header>
                             <div>
@@ -73,7 +97,7 @@
                         </article>
 					<?php endwhile; ?>
 					<?php if (current_theme_supports( 'sigami-pagination' )) {  ?>
-						<?php wp_bootstrap_page_navi();  ?>
+						<div class="text-center"><?php wp_bootstrap_page_navi();  ?></div>
 					<?php } else { ?>
                             <nav class="wp-prev-next">
                                 <ul class="pager">
