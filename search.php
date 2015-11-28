@@ -58,7 +58,7 @@
                     </article>
                 <?php endwhile; ?>
                     <?php if (current_theme_supports( 'sigami-pagination' )) {  ?>
-                        <?php wp_bootstrap_page_navi();  ?>
+                        <?php Sigami_Views::numeric_navi();  ?>
                     <?php } else { ?>
                         <nav class="wp-prev-next">
                             <ul class="pager">

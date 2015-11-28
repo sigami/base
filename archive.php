@@ -97,7 +97,7 @@
                         </article>
 					<?php endwhile; ?>
 					<?php if (current_theme_supports( 'sigami-pagination' )) {  ?>
-						<div class="text-center"><?php wp_bootstrap_page_navi();  ?></div>
+						<div class="text-center"><?php Sigami_Views::numeric_navi();  ?></div>
 					<?php } else { ?>
                             <nav class="wp-prev-next">
                                 <ul class="pager">
