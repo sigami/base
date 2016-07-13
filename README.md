@@ -1,3 +1,5 @@
+# Deprecated in favor of [Maketador](https://github.com/sigami/maketador)
+
 # Base Theme
 
 It is a combination of the best bootstrap starter themes, with some extra flavor.
